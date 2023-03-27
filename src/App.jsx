@@ -13,9 +13,9 @@ function App() {
       <NavBar />
       <div className="App">
         <Routes>
-          <Route path="/" element={<HomePage />} />
-          <Route path="/store" element={<Store />} />
-          <Route path="/about" element={<About />} />
+          <Route path="/react-shopping-cart" element={<HomePage />} />
+          <Route path="/react-shopping-cart/store" element={<Store />} />
+          <Route path="/react-shopping-cart/about" element={<About />} />
         </Routes>
       </div>
     </ShoppingCartProvider>
