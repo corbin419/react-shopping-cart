@@ -3,7 +3,6 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://github.com/corbin419/react-shopping-cart",
   "scripts": {
     "predeploy": "npm run build",
     "deploy": "gh-pages -d dist",
