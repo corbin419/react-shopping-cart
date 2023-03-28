@@ -3,24 +3,24 @@
     "id": "1",
     "name": "沉重球",
     "price": 210,
-    "imgUrl": "/public/Images/Heavy Ball.png"
+    "imgUrl": "/public/Images/HeavyBall.png"
   },
   {
     "id": "2",
     "name": "友友球",
     "price": 220,
-    "imgUrl": "/public/Images/Friend Ball.png"
+    "imgUrl": "/public/Images/FriendBall.png"
   },
   {
     "id": "3",
     "name": "月亮球",
     "price": 230,
-    "imgUrl": "/public/Images/Moon Ball.png"
+    "imgUrl": "/public/Images/MoonBall.png"
   },
   {
     "id": "4",
     "name": "究極球",
     "price": 250,
-    "imgUrl": "/public/Images/Beast Ball.png"
+    "imgUrl": "/public/Images/BeastBall.png"
   }
 ]
