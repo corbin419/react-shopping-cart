@@ -22,7 +22,7 @@ function StoreItems(props) {
       />
       <Card.Body className="d-flex flex-column">
         <Card.Title className="d-flex justify-content-between align-items-baseline mb-4">
-          <span className="fs-4">{name}</span>
+          <span className="fs-2">{name}</span>
           <span className="ms-5 text-muted">{price}</span>
         </Card.Title>
         <div className="mt-auto">

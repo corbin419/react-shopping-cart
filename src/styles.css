@@ -12,93 +12,6 @@ body {
   width: 100%;
 }
 
-/* NavBar 樣式 */
-.NavBar {
-  position: sticky;
-  top: 0;
-  min-height: 70px;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 0 24px;
-  z-index: 999;
-  background-color: rgb(218, 218, 218);
-}
-.NavBar a {
-  color: rgb(58, 58, 58);
-  text-decoration: none;
-}
-.NavBar ul {
-  list-style: none;
-}
-.nav-menu {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  gap: 60px;
-}
-
-.nav-link {
-  transition: 0.7s ease;
-}
-.nav-link:hover {
-  color: dodgerblue;
-}
-
-.Cart-menu{
-  width: 80%;
-  height: 100%;
-  background-color: rgb(255, 255, 255);
-}
-
-.Cart-btn {
-  background-color: rgb(218, 218, 218);
-  border: none;
-  position: relative;
-}
-
-/* Card 樣式*/
-.card {
-  min-width: 300px;
-  width: calc(25% - 10px);
-  margin: 8px auto;
-}
-
-@media screen and (max-width: 768px) {
-  .card {
-    width: calc(50% - 10px); /* 計算出一行最多顯示2個card物件 */
-  }
-}
-
-.btn-group-container {
-  width: 100%;
-  display: flexbox;
-  align-items: center;
-  gap: 0.5rem;
-  /* border: solid 1px blue; */
-}
-
-.btn-group {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  gap: 0.5rem;
-  /* border: solid 1px blue; */
-  margin: 0 auto;
-}
-
-.delete-btn {
-  /* border: solid 1px blue; */
-  width: 30%;
-  align-items: center;
-  justify-content: center;
-  margin: 0 auto;
-}
-
-/* Store 樣式 */
-.Store h1 {
-  margin-left: 40px;
-}
 .products {
   margin: 0 auto;
   display: flex;
@@ -108,12 +21,8 @@ body {
   justify-content: space-between;
   /* border: solid 1px black; */
 }
-/*Add-Btn*/
-.Add-Btn {
-  width: 100%;
-}
-
-.Add-Btn:hover {
-  color: white;
-  background-color: #3e3e3e;
+.Store{
+  width: 60%;
+  /* border: solid 1px black; */
+  margin: 0 auto;
 }
